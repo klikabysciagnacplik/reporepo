@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>styl zewnetrzne</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+
+<center>
+<h1> Kod CSS: </h1>
+<textarea cols="80" rows="20">
+/* Styl dla wszystkich akapitów */
+p {
+    color: red;
+    font-size: 22pt;
+}
+
+/* Styl dla akapitu z ID */
+#gruby_świerczewski {
+    color: green;
+    font-size: 17pt;
+    font-weight: bold;
+}
+
+/* Styl uniwersalny */
+#dlawszyskich_świerczewski {
+    color: yellow;
+    font-size: 10pt;
+    font-family: Arial;
+}
+</textarea>
+
+<h1> Kod HTML: </h1>
+<textarea cols="80" rows="46">
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Stylowanie CSS</title>
+    <link rel="stylesheet" href="świerczewski_z22.css">
+</head>
+<body>
+
+    <!-- a) Akapit formatowany ogólnie (p) -->
+    <p>
+        świerczewski: Informatyka to dziedzina, która zmienia świat. <br>
+        Technologie rozwijają się w szybkim tempie. <br>
+        Programowanie uczy logicznego myślenia. <br>
+        Sieci komputerowe łączą ludzi z całego globu.
+    </p>
+
+    <!-- b) Akapit z ID gruby_świerczewski -->
+    <p id="gruby_świerczewski">
+        świerczewski: HTML to język znaczników używany do tworzenia stron. <br>
+        CSS odpowiada za wygląd tych stron. <br>
+        JavaScript umożliwia interaktywność. <br>
+        Dzięki tym technologiom powstają nowoczesne serwisy.
+    </p>
+
+    <!-- c) Akapit z #dlawszyskich_świerczewski w znaczniku H1 -->
+    <h1 id="dlawszyskich_świerczewski">
+        świerczewski: Bazy danych są sercem wielu aplikacji. <br>
+        SQL pozwala zarządzać danymi. <br>
+        Bezpieczne przechowywanie danych to podstawa. <br>
+        Wiedza o bazach danych jest bardzo cenna.
+    </h1>
+
+    <!-- d) Akapit z #dlawszyskich_świerczewski w znaczniku DIV -->
+    <div id="dlawszyskich_świerczewski">
+        świerczewski: Systemy operacyjne zarządzają zasobami komputera. <br>
+        Windows i Linux to popularne systemy. <br>
+        Użytkownik komunikuje się z systemem przez interfejs. <br>
+        Dobre zrozumienie działania systemu ułatwia pracę.
+    </div>
+
+</body>
+</html>
+</textarea>
+</center>
+
+ </body>
+</html>

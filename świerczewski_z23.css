@@ -1,0 +1,46 @@
+/* 1. pogrubienie_swierczewski */
+p#pogrubienie_swierczewski {
+    font-size: 37px; /* 25 + 12 */
+    color: #8d7bc9;   /* 125+6=131, 50+43=93, 200+1=201 => #8373c9 */
+    font-weight: bold;
+}
+
+/* 2. pochylona_swierczewski */
+p#pochylona_swierczewski {
+    font-size: 42pt; /* 30 + 12 */
+    color: #eb9765;  /* 225+6=231, 150+43=193, 100+1=101 => #ebc165 */
+    font-style: italic;
+}
+
+/* 3. index_gorny_swierczewski */
+p#index_gorny_swierczewski {
+    font-size: 1.7cm; /* 0.5 + 0.1×12 = 1.7 */
+    color: #9d6c21;   /* 145+6=151, 100+43=143, 20+1=21 => #976f21 */
+    vertical-align: super;
+}
+
+/* 4. index_dolny_swierczewski */
+p#index_dolny_swierczewski {
+    font-size: 2.9cm; /* 0.5 + 0.2×12 = 2.9 */
+    color: rgb(51%, 100%, 221%); /* 45+6=51%, 200+43=243%, 220+1=221% */
+    vertical-align: sub;
+}
+
+/* 5. mono_swierczewski */
+p#mono_swierczewski {
+    font-size: 47px; /* 35 + 12 */
+    color: #1aab65;  /* 17+6=23, 180+43=223, 100+1=101 => #17df65 */
+    font-family: monospace;
+}
+
+/* 6. powiekszenie_swierczewski */
+p#powiekszenie_swierczewski {
+    font-size: 150%;
+    color: #4d1e97;  /* 75+6=81, 20+43=63, 150+1=151 => #511c97 */
+}
+
+/* 7. pomniejszenie_swierczewski */
+p#pomniejszenie_swierczewski {
+    font-size: 70%;
+    color: rgb(181%, 163%, 51%); /* 175+6=181%, 120+43=163%, 50+1=51% */
+}

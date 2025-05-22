@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>x</title>
+        <META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=UTF-8>
+    </head>
+    <body>
+
+        
+        <h1> 1. Składnia teoretyczna style zewnetrznego </h1>
+        <textarea cols="80" rows="80">
+            <head> 
+                (...) 
+                <link rel="Stylesheet" type="text/css" href="style.css" /> 
+                (...) 
+                </head> 
+        </textarea>
+
+        <h1>2. Gdzie wstawiany jest  styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz ile razy może on występować w dokumencie, jako podłączenie stylu CSS?  </h1>
+        <ul>
+            <li> Wstawiany jest w sekcji HEAD znacznikiem LINK, może on występować nieskończoną ilość razy</li>
+        </ul>
+
+        <h1>3. Jak jest najprostsza forma wstawiania stylu zewnętrznego?</h1>
+        <textarea rows="1" cols="80">
+            <link rel="Stylesheet" type="text/css" href="style.css" /> 
+        </textarea>
+
+        <h1>4. Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz jaka zasad musi być zachowana przy większej ilości dołączanych styli?  </h1>
+        <ul>
+            <li>Nieograniczoną ilość, ale każdy arkusz musi być dołączony jako osobny element.</li>
+        </ul>
+
+        <h1>5. Co się dzieje w przypadku konfliktów? Przez konflikt rozumiemy, gdy te same style są definiowane w różnych arkuszach styli podłączone do tego samego arkusza.</h1>
+        <ul>
+            <li> W przypadku konfliktów, ważniejsze będą deklaracje z arkusza dołączonego później. </li>
+        </ul>
+
+        <h1>6. Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?</h1>
+        <ul>
+            <li>Zewnętrzny arkusz jest zwykłym plikiem tekstowym. Do tworzenia i edytowania wystarczy zwykły edytor tekstowy. Należy jednak pamiętać o dodaniu rozszerzenia .css</li>
+        </ul>
+
+        <h1>7. Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego edytora CSS? </h1>
+        <ul>
+            <li>Tak samo jak ze zwykłym edytoryem tekstowym, jednakże zawiera on podpowiedzi i podświetlenia dla znaczników i poleceń. Tak samo trzeba pamiętać o rozszerzeniu .css</li>
+        </ul>
+
+        <h1>8. Jakie rozszerzenie posiadają plik będący zewnętrznym arkuszem styli? </h1>
+        <ul>
+            <li>.css</li>
+        </ul>
+
+        <h1>9. Jakie są zalety zewnętrznego arkusza styli?</h1>
+        <ul>
+            <li>Wszystkie nasze strony w obrębie całego serwisu mogą mieć pewne wspólne cechy. </li>
+            <li>Jeśli w ostatniej chwili zdecydujemy się zmienić np. rodzaj czcionki na wszystkich stronach, możemy to zrobić, modyfikując jedynie zewnętrzny arkusz stylów, bez konieczności zmiany każdej strony osobno.</li>
+        </ul>
+
+        <h1>10. Uwagi na temat pisania w CSS?</h1>
+        <ul>
+            <li>Należy pamiętać o tym, aby każdy plik został zapisany z poprawnym rozszerzeniem .css</li>
+        </ul>
+    </body>
+</html>

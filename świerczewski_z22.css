@@ -1,0 +1,19 @@
+/* Styl dla wszystkich akapitów */
+p {
+    color: red;
+    font-size: 22pt;
+}
+
+/* Styl dla akapitu z ID */
+#gruby_świerczewski {
+    color: green;
+    font-size: 17pt;
+    font-weight: bold;
+}
+
+/* Styl uniwersalny */
+#dlawszyskich_świerczewski {
+    color: yellow;
+    font-size: 10pt;
+    font-family: Arial;
+}
